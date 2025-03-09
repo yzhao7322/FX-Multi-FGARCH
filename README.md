@@ -1,9 +1,6 @@
 # FX-Multi-FGARCH
 This repository provide codes and dataset to replicate the procedure and results in the paper "Forecasting intraday foreign exchange volatility with functional GARCH approaches", by Fearghal Kearney, HanLin Shang, Yuqian Zhao
 
-For relevant dataset, one could find from the shared folder:
-https://www.dropbox.com/scl/fo/qfv0ufla9bnzeb5k0hefk/ACX6jtiDlSGdR2d6ymUoP1k?rlkey=dxyun3exl5vh1fsbvhoolg19q&st=5l1f7sz4&dl=0
-
 There are 8 files in the package:
 
 (1) Pre_tests.R : preliminary tests for intraday data, which one could get the results in Table 3.1 and Figure 4.1
