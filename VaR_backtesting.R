@@ -115,7 +115,7 @@ var.backtest <- function(vio, tau, K=NULL){
 
     lim_sum=0
     for (j in 1:length(vect)){
-      lim_sum=lim_sum+vect[j]*rnorm(cv_N,mean=0,sd=1)}
+      lim_sum=lim_sum+vect[j]*rnorm(cv_N,mean=0,sd=1)^2}
 
     cv=quantile(lim_sum,probs=c(0.90,0.95,0.99))
     return(list(cv,lim_sum))
